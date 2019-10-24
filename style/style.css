@@ -1,0 +1,57 @@
+fieldset {
+    margin:0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    max-width: 300px;
+    border: 5px solid #1F497D;
+    background: #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+fieldset legend {
+    background: #1F497D;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 20px;
+}
+
+fieldset input{
+    border-color: #1F497D;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.box select {
+    background-color: #fff;
+    border-color: #1F497D;
+    text-align: right;
+    
+    padding: 2px;
+    width: 245px;
+    border-radius: 5px;
+    
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+#entrada {
+    background-color: #1F497D;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+  

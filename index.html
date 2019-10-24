@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Convertidor de bases</title>
+    <LINK REL="stylesheet" TYPE="text/css" HREF="style/style.css">
+        
+    </head>
+    
+    <body>
+        <form>
+            <fieldset id="fomulario">
+                <legend>Decimal a otra base</legend>
+            <p> Valor </p>
+            <p><input type="text" name="input1" id="input1" value="" /></p>
+            <p>Base</p>
+            <p><input type="text" name="base1" id="base1" value="" /></p>
+            <p>
+            Salida
+            </p>
+            <p type="text" name="output1" id="output1" value=""></p>
+            
+            <p><button type="boton" id="entrada" onclick="decimal()">Aceptar</button></p>
+        </fieldset>
+
+        <br>
+
+        <fieldset id="formulario">
+            <legend>De otra base a decimal</legend>
+            <p> Valor </p>
+            <p><input type="text" name="input2" id="input2" value="" /></p>
+            <p>Base</p>
+            <p>
+            <div class="box">
+                <select name="base2" id="base2">
+                    <option id="vacio" value="V"></option>
+                    
+                </select>
+            </div>
+            </p>
+            
+            <p>Salida</p>
+            <p type="text" name="output1" id="output2" value=""></p>
+            <p><button type="button" id="entrada" onclick="otraBase()">Aceptar</button></p>
+        </fieldset>
+    </form>
+    
+    <script type="text/javascript" src="js/code.js"></script>
+</body>
+
+</html>
